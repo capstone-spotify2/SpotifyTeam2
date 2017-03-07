@@ -16,20 +16,20 @@ import time
 import time
 import RequestAgent
 
-allartists = []
-for l in string.ascii_lowercase:
-    url = "http://azlyrics.com/%s.html"%l
-    r = RequestAgent.request(url)
-    soup = BeautifulSoup(r, 'html.parser')
-    soup = BeautifulSoup(str(soup).split("container main-page")[1])
-    artistdf = pd.DataFrame([(artist.text, artist.get('href')) for artist in soup.findAll('a')])
-    artistdf.columns = ['artist', 'artistpage']
-    allartists.append(artistdf)
-    # links += [link.get('href') for link in soup.find_all('a') if 'http' not in link.get('href')]
-    time.sleep(15)
+# allartists = []
+# for l in string.ascii_lowercase:
+#     url = "http://azlyrics.com/%s.html"%l
+#     r = RequestAgent.request(url)
+#     soup = BeautifulSoup(r, 'html.parser')
+#     soup = BeautifulSoup(str(soup).split("container main-page")[1])
+#     artistdf = pd.DataFrame([(artist.text, artist.get('href')) for artist in soup.findAll('a')])
+#     artistdf.columns = ['artist', 'artistpage']
+#     allartists.append(artistdf)
+#     # links += [link.get('href') for link in soup.find_all('a') if 'http' not in link.get('href')]
+#     time.sleep(15)
 
-allartists = pd.concat(allartists, ignore_index = True)
-allartists.to_csv('allartists.csv', index = False)
+# allartists = pd.concat(allartists, ignore_index = True)
+# allartists.to_csv('allartists.csv', index = False)
 
 
 ####################################
@@ -37,9 +37,9 @@ allartists.to_csv('allartists.csv', index = False)
 # get all album and songs info
 #
 #
-
+allartists = pd.read_csv('allartists.csv')
 #allsongs = []
-for i, artist in allartists.ix[2041:].iterrows():
+for i, artist in allartists.ix[8450:].iterrows():
     try:
         aname = artist.artist
         alink = artist.artistpage
