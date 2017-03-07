@@ -39,7 +39,7 @@ import RequestAgent
 #
 allartists = pd.read_csv('allartists.csv')
 #allsongs = []
-for i, artist in allartists.ix[8450:].iterrows():
+for i, artist in allartists.ix[8445:8447].iterrows():
     try:
         aname = artist.artist
         alink = artist.artistpage
