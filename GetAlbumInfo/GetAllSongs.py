@@ -3,7 +3,9 @@ import urllib.request
 from bs4 import BeautifulSoup
 import string
 import numpy as np
-
+import pandas as pd
+import RequestAgent
+import time
 
 ##############################
 #
@@ -36,8 +38,8 @@ allartists.to_csv('allartists.csv', index = False)
 #
 #
 
-allsongs = []
-for i, artist in allartists.ix[1955:].iterrows():
+#allsongs = []
+for i, artist in allartists.ix[2041:].iterrows():
     try:
         aname = artist.artist
         alink = artist.artistpage
@@ -67,13 +69,13 @@ for i, artist in allartists.ix[1955:].iterrows():
             artistdf = pd.concat(artistdf, ignore_index = True)
             aname = aname.replace("/","_")
             artistdf['artist'] = aname
-            artistdf.to_csv(/albuminfo/aname+'.csv', index = False)
-            allsongs.append(artistdf)
+            artistdf.to_csv('albuminfo/%s.csv'%aname, index = False)
+            #allsongs.append(artistdf)
     except RecursionError:
         pass
     time.sleep(15)
 
-allsongs = pd.concat(allsongs, ignore_index = True)
+#allsongs = pd.concat(allsongs, ignore_index = True)
 
 # a=a.replace('\n','')
 # re.findall("<b>(.*?)</b>",a)
