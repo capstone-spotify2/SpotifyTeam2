@@ -13,6 +13,7 @@ import time
 #
 #
 
+<<<<<<< HEAD
 allartists = []
 for l in string.ascii_lowercase:
     url = "http://azlyrics.com/%s.html"%l
@@ -25,8 +26,8 @@ for l in string.ascii_lowercase:
     # links += [link.get('href') for link in soup.find_all('a') if 'http' not in link.get('href')]
     time.sleep(15)
 
-allartists = pd.concat(allartists, ignore_index = True)
-allartists.to_csv('allartists.csv', index = False)
+# allartists = pd.concat(allartists, ignore_index = True)
+# allartists.to_csv('allartists.csv', index = False)
 
 
 ####################################
@@ -34,7 +35,7 @@ allartists.to_csv('allartists.csv', index = False)
 # get all album and songs info
 #
 #
-
+allartists = pd.read_csv('allartists.csv')
 #allsongs = []
 for i, artist in allartists.ix[2497:].iterrows():
     try:
