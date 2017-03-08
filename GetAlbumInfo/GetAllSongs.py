@@ -123,10 +123,10 @@ afiles = [f for f in listdir("albuminfo") if isfile(join('albuminfo', f)) and f.
 for f in afiles:
     ainfo = pd.read_csv('albuminfo/'+f)
     for i, song in ainfo.iterrows():
-        lyrics = get_lyrics(song.artist, song.song)
-        
-        with open("lyrics/%s_%s.txt"%(song.artist.replace("/", "_"), song.song.replace("/", "_")), "w") as text_file:
-            text_file.write(lyrics)
+        if isinstance(song.song, str) and isinstance(song.artist, str):
+            lyrics = get_lyrics(song.artist, song.song)
+            with open("lyrics/%s_%s.txt"%(song.artist.replace("/", "_"), song.song.replace("/", "_")), "w") as text_file:
+                text_file.write(lyrics)
 
         time.sleep(15)
 
