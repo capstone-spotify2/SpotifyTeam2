@@ -13,7 +13,6 @@ import time
 #
 #
 
-<<<<<<< HEAD
 allartists = []
 for l in string.ascii_lowercase:
     url = "http://azlyrics.com/%s.html"%l
