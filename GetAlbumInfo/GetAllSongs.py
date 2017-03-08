@@ -13,9 +13,6 @@ import time
 #
 #
 
-import time
-import RequestAgent
-
 allartists = []
 for l in string.ascii_lowercase:
     url = "http://azlyrics.com/%s.html"%l
@@ -39,7 +36,7 @@ allartists.to_csv('allartists.csv', index = False)
 #
 
 #allsongs = []
-for i, artist in allartists.ix[2041:].iterrows():
+for i, artist in allartists.ix[2497:].iterrows():
     try:
         aname = artist.artist
         alink = artist.artistpage
@@ -81,3 +78,72 @@ for i, artist in allartists.ix[2041:].iterrows():
 # re.findall("<b>(.*?)</b>",a)
 # re.findall("</b>(.*?)</div>",a)
 # re.findall("<a href=\"(.*?)\".*?>(.*?)<",a)
+
+
+####################################
+#
+# get lyrics
+#
+#
+
+#allartists = pd.read_csv('allartists.csv', index_col = 0)
+
+def get_lyrics(artist,song_title):
+    artist = artist.lower()
+    song_title = song_title.lower()
+    # remove all except alphanumeric characters from artist and song_title
+    artist = re.sub('[^A-Za-z0-9]+', "", artist)
+    song_title = re.sub('[^A-Za-z0-9]+', "", song_title)
+    if artist.startswith("the"):    # remove starting 'the' from artist e.g. the who -> who
+        artist = artist[3:]
+    url = "http://azlyrics.com/lyrics/"+artist+"/"+song_title+".html"
+    print(url)
+    
+    try:
+        #content = urllib.request.urlopen(url).read()
+        r = RequestAgent.request(url)
+        soup = BeautifulSoup(r, 'html.parser')
+        lyrics = str(soup)
+        # lyrics lies between up_partition and down_partition
+        up_partition = '<!-- Usage of azlyrics.com content by any third-party lyrics provider is prohibited by our licensing agreement. Sorry about that. -->'
+        down_partition = '<!-- MxM banner -->'
+        lyrics = lyrics.split(up_partition)[1]
+        lyrics = lyrics.split(down_partition)[0]
+        lyrics = lyrics.replace('<br>','').replace('</br>','').replace('</div>','').strip()
+        return lyrics
+    except Exception as e:
+        return "Exception occurred \n" +str(e)
+
+
+from os import listdir
+from os.path import isfile, join
+afiles = [f for f in listdir("albuminfo") if isfile(join('albuminfo', f)) and f.endswith(".csv")]
+
+for f in afiles:
+    ainfo = pd.read_csv('albuminfo/'+f)
+    for i, song in ainfo.iterrows():
+        lyrics = get_lyrics(song.artist, song.song)
+        
+        with open("lyrics/%s_%s.txt"%(song.artist.replace("/", "_"), song.song.replace("/", "_")), "w") as text_file:
+            text_file.write(lyrics)
+
+        time.sleep(15)
+
+
+
+
+# brackets_regex = re.compile('\[.*?\]')
+# lyrics = brackets_regex.sub("", lyrics)
+
+# # Remove apostrophes
+# apostrophe_regex = re.compile("[']")
+# lyrics = apostrophe_regex.sub("", lyrics)
+
+# # Remove punctuation
+# punctuation_regex = re.compile('[^0-9a-zA-Z ]+')
+# punctuation_regex.sub(" ", lyrics)
+
+# # Remove double spaces
+# double_space_regex = re.compile('\s+')
+# double_space_regex.sub(" ", lyrics)
+
