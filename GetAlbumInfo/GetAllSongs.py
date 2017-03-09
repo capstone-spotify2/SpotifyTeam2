@@ -39,9 +39,10 @@ import RequestAgent
 #
 allartists = pd.read_csv('allartists.csv')
 #allsongs = []
-for i, artist in allartists.ix[6045:6994].iterrows():
+for i, artist in allartists.ix[5684:5795].iterrows():
+    print(i)
     try:
-        aname = artist.artist
+        aname = artist.artistpage
         alink = artist.artistpage
         url = "http://azlyrics.com/"+alink
         r = RequestAgent.request(url)
