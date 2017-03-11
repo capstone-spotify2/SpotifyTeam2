@@ -110,6 +110,7 @@ def get_lyrics(url):
 afiles = [f for f in listdir("albuminfo") if isfile(join('albuminfo', f)) and f.endswith(".csv")]
 # start with M-Q
 afiles = [f for f in afiles if 'm' <= f[0].lower() <= 'q']
+afiles = afiles[afiles.index('m_monstermagnet.html.csv'):]
 
 for f in afiles:
     ainfo = pd.read_csv('albuminfo/'+f)
@@ -118,6 +119,8 @@ for f in afiles:
             url = song.link
             if url.startswith('../'):
                 url = "http://azlyrics.com/" + url[3:]
+            elif url.startswith('http'):
+                pass
             else:
                 print("Not able to process url: %s" % url)
                 continue
