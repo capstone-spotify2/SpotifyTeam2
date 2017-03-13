@@ -128,7 +128,7 @@ for f in afiles:
             with open("lyrics/%s_%s.txt"%(song.artist.replace("/", "_"), song.song.replace("/", "_")), "w") as text_file:
                 text_file.write(lyrics)
 
-        time.sleep(15)
+        # time.sleep(15)
 
 
 
