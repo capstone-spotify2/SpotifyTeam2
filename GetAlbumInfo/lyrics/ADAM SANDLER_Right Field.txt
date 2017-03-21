@@ -1,0 +1,69 @@
+<i>[Russel: Shouting]</i> "Come on Robert! Pitch it in there, baby! 
+We're behind you here in right field! One down! 
+Two to go! Hum it now! Yeah! Show 'em the magic! This chump can't hit!"
+<i>[Whispering to himself]</i> "Please God, don't help him hit it to me. 
+Anywhere but to right field. Please God, I bet you."
+<i>[Shouting]</i> "Come on now! No batter! No batter! Big whiffer! Big whiffer!"
+<i>[Whispering]</i> "Oh please, don't let him hit it to me. My God, not to me."
+<i>[Shouting]</i> "Steam it baby! Steam it!"
+<i>[Whispering]</i> "Oh God no, Oh God no, Oh God no, Oh God no."
+<i>[Ball is hit]</i>
+
+<i>[Russel: Shouting]</i> "NOOOOOOOOOOOOO!"
+<i>[Whispering]</i> "Oh good! It's not to me."
+<i>[Shouting]</i> "Good catch, Steven! Nice glove! 
+You da man! Two away now! Lookin' good! 
+We're all looking good out here! Come on Robert! 
+This lump of crap can't hit!"
+<i>[Whiserping]</i> "Oh God, he's a leftie! A big leftie! 
+Total power to hit it. He's gonna pile it right to me and there's nothing I can do to stop him."
+<i>[Shouting]</i> "Pitch 'em the funny one, Robert! Big whiffer! Big whiffer!"
+<i>[Whispering]</i> "Oh he is a natural athlete and I am so worthless. 
+Please God, take his life. Make him die."
+<i>[Shouting]</i> "No batter! No batter!"
+<i>[Ball is hit]</i>
+
+<i>[Russel: Whispering]</i> "Oh God. This is not happening. 
+No, don't do this to me. Please. Make it stop."
+<i>[Ball hits Russel]</i>
+<i>[Russel:]</i> "OWWWW! My elbow!"
+<i>[M1:]</i> "Throw it to second! Pick it up already!"
+<i>[Russel:]</i> "Take it! Just take the ball!"
+<i>[Russel tosses the ball]</i>
+<i>[M2:]</i> "Nice throw, you pansy!"
+<i>[Russel: Whispering]</i> "Ok, get under control. 
+Easy now, easy. Say something to the team."
+<i>[Shouting]</i> "Good hussle everybody! Yeah! Nice work! Play's at third!"
+<i>[Whispering]</i> "That wasn't funny, Lord. I've been so good and for what!?"
+<i>[Shouting]</i> "Come on, Robert! Settle down! Just throw straight! 
+You get it across the plate! We'll take care of the rest!"
+<i>[Whispering]</i> "Oh no, another lefty."
+<i>[Ball is hit]</i>
+
+<i>[Russel: Shouting]</i> "NOO! Why me again!?"
+<i>[Ball hits Russel]</i>
+<i>[Russel:]</i> "OWWWW! My neck!"
+<i>[Panting &amp; Whining]</i> "I can't breath. I can't breath."
+<i>[M2:]</i> "Pick it up and throw it, you moron!"
+<i>[Russel: Whining]</i> "Here..come on, here.. Take the ball! Take it!"
+<i>[Russel kicks ball]</i>
+<i>[M1:]</i> "Way to kick it in, Pele!"
+<i>[Russel: Shouting]</i> "Oh hahaha. Pele! Good one! Hehehe.. 
+Ok! Come on! Suck it up guys! We'll get those runs back! 
+This is where we dig down! 
+We just need one more out!"
+<i>[Whispering]</i> "Oh look! A rightie! Oh Lord, thank you. Thank you so much. I owe you."
+<i>[Shouting]</i> "This loser can't hit! No batter! Come on, this is where we take them out!"
+<i>[Whispering]</i> "Uh oh, what's happening? Where's the rightie going? What? 
+Who's this guy? He's a leftie and he's pinch hitting. No! No!"
+<i>[Shouting]</i> "Why's he pointing at me!?"
+<i>[Ball is hit]</i>
+
+<i>[Russel: Shouting]</i> "Oh my Lord! What have I done to deserve this?!"
+<i>[M3:]</i> "I got it! I got it!"
+<i>[Running over to the ball near Russel]</i>
+<i>[Thud! Crashes into Russel]</i>
+<i>[M3:]</i> "Whoa! Sorry about that, Russel. Are you ok?"
+<i>[Russel: Shouting]</i> "HELL YEAH! We're up now! It's our turn to kick a little ass!"
+<i>[M3:]</i> "All right, Russel. I think you're up first."
+<i>[Russel:]</i> "NOOOOO!!"

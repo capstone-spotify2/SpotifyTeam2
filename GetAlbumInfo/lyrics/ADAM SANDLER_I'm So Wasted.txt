@@ -1,0 +1,160 @@
+<i>[Sound of crickets. Guy walks across grass]</i>
+<i>[Joe:]</i> "Hey pal! How ya doin?"
+<i>[M2:]</i> "I'm so wasted, man."
+<i>[Joe:]</i> "Yeah, you are, oh ho ho!"
+<i>[M2:]</i> "Thanks man."
+<i>[Joe:]</i> "It's good party, huh?"
+<i>[M2:]</i> "Oh, it's great man."
+<i>[Joe:]</i> "Hey that's some good acid, huh?"
+<i>[M2:]</i> "Oh, killer man."
+<i>[Joe:]</i> "Hey, my pleasure."
+<i>[M2:]</i> "I've never been higher."
+<i>[Joe:]</i> "Oh ho, you must be freaking out."
+<i>[M2:]</i> "Acid's great man."
+<i>[Joe:]</i> "It's the best."
+<i>[M2:]</i> "Everytime I do acid man, I'm so high."
+<i>[Joe:]</i> "Yeah, oh, you must be flipping out right now."
+<i>[M2:]</i> "This is the best acid, man."
+<i>[Joe:]</i> "What are you seein, man?"
+<i>[M2:]</i> "Oh, I, that cloud up there, man."
+<i>[Joe:]</i> "Whoa"
+<i>[M2:]</i> "It's got a vein in it."
+<i>[Joe:]</i> "Oh-Holy Cow! Really!?"
+<i>[M2:]</i> "And it's bleeding on me, man."
+<i>[Joe:]</i> "It's bleeding on ya? Well watch out!"
+<i>[M2:]</i> "Look at my hand, man."
+<i>[Joe:]</i> "Yeah?"
+<i>[M2:]</i> "It-It's moving, but it's not moving."
+<i>[Joe:]</i> "It's not?"
+<i>[M2:]</i> "It's still there, but it looks like it's moving."
+<i>[Joe:]</i> "Hey, yeah to you it is."
+<i>[M2:]</i> "I'm so high."
+<i>[Joe:]</i> "Yeah, you must be flipping out."
+<i>[M2:]</i> "I'm flipping out off it."
+<i>[Joe:]</i> "Hallucinations, man."
+<i>[M2:]</i> "Acid..right."
+<i>[Joe:]</i> "Hey, I got some news fer ya."
+<i>[M2:]</i> "I'm seeing stuff, man."
+<i>[Joe:]</i> "Yeah, yer seeing stuff."
+<i>[M2:]</i> "RIght."
+<i>[Joe:]</i> "Well, that's what happens when you take acid, but you know what?"
+<i>[M2:]</i> "What man?"
+<i>[Joe:]</i> "Uhhh, that really wasn't acid. 
+That was just a little piece of paper I ripped off of my notebook."
+<i>[Silence]</i>
+
+<i>[M2:]</i> "Wha? It's probly this weed I'm smokin', man."
+<i>[Joe:]</i> "Oh, that weed."
+<i>[M2:]</i> "That Thai bud, man."
+<i>[Joe:]</i> "Whoa."
+<i>[M2: Laughing]</i> "Everything's hilarious."
+<i>[Joe: Laughing]</i> "That's funny man. Look at that guy."
+<i>[M2: Laughing]</i> "That's funny man."
+<i>[Joe: Laughing]</i> "Look at that guy's hat man."
+<i>[M2: Laughing]</i> "Everything's funny to me, man."
+<i>[Joe:]</i> "Right. Hey, how man bones didya smoke? A few joints, man?"
+<i>[M2:]</i> "I had about four."
+<i>[Joe:]</i> "Whoa, that's a lot of bones to be smokin', man."
+<i>[M2:]</i> "The whole thing's man."
+<i>[Joe:]</i> "Yeah, you sucked 'em down yerself."
+<i>[M2:]</i> "Ain't that hilarious!?"
+<i>[Joe:]</i> "You didn't wanna share, didja?"
+<i>[M2:]</i> "It was great stuff, man."
+<i>[Joe:]</i> "Aww, yeah, hey I got some news on that stuff too."
+<i>[M2:]</i> "Hey what man?"
+<i>[Joe:]</i> "That's the stuff I sold you, right?
+<i>[M2:]</i> "Yeah, right."
+<i>[Joe:]</i> "Yeah"
+<i>[M2:]</i> "It's funny, man."
+<i>[Joe:]</i> "Well, well, uh.."
+<i>[M2:]</i> "I'm wasted off it, man."
+<i>[Joe:]</i> "Yeah, well that's good. You smoked it, right?"
+<i>[M2:]</i> "Right."
+<i>[Joe:]</i> "Well that really wans't weed."
+<i>[Pause]</i>
+<i>[Joe:]</i> "No it wasn't, it was pencil shavings in a bag."
+<i>[Silence]</i>
+
+<i>[Joe:]</i> "Yeah."
+<i>[M2:]</i> "Well, it's probably this beer. 
+This beer I'm drinking, man. I must be drunk off it or something. 
+Ya know, I had about eighteen of them, man."
+<i>[Joe:]</i> "Whoa, oh really!?"
+<i>[M2:]</i> "I'm just..wasted off 'em."
+<i>[Joe:]</i> "That's a lot of beer for a man to drink."
+<i>[M2:]</i> "Man, I gotta pea pretty soon, man."
+<i>[Joe:]</i> "You didn't dump 'em out in the woods, didja?"
+<i>[M2:]</i> "No..no..no.. I drank all of them."
+<i>[Joe:]</i> "Right, yeah. I saw you..that's good. Hey didja eat today?"
+<i>[M2:]</i>"No, I'm on an empty stomach."
+<i>[Joe:]</i> "Whoa, you must be ..yea.. extra buzz for you."
+<i>[M2:]</i> "..And that's why I'm so wasted off it man, it's like I'm seeing things, man."
+<i>[Joe:]</i> "Yeah, you can hardly stand, man."
+<i>[M2:]</i> "You should take my car keys, cuz I can't drive, man."
+<i>[Joe:]</i> "Right, right."
+<i>[M2:]</i> "I can barely walk."
+<i>[Joe:]</i> "Hey man, you better open those eyes up, they're half shut."
+<i>[M2:]</i> "There's two of you, man. I can't see anymore, man, I'm blind!"
+<i>[Joe:]</i> "Right.. I got the beers, huh? I'm the man, right?"
+<i>[M2:]</i> "Yeah, you are the man."
+<i>[Joe:]</i> "Say it. Say I'm the man."
+<i>[M2:]</i> "Yer da man!!"
+<i>[Joe:]</i> "Okay, well that beer.."
+<i>[M2:]</i> "Yeah?"
+<i>[Joe:]</i> "There was no alcohol in that beer."
+<i>[Pause]</i>
+<i>[Joe:]</i> "That was non-alcoholic. 
+So..uhh..again, I'm gonna have to bust you on this one. 
+You're lying."
+<i>[Silence]</i>
+
+<i>[M2: Mumbling]</i> "I'll be right back."
+<i>[Joe:]</i> "Ok, buddy, you go sober up."
+<i>[Walking different directions, gun goes off]</i>
+<i>[Joe:]</i> "Oh my God! He killed himself! He killed himself!"
+<i>[Runs over]</i>
+<i>[Joe:]</i> "Oh my God! You killed yerself, buddy."
+<i>[M2:]</i> "Yeah, I'm dead, man."
+<i>[Joe:]</i> "Oh my, oh yer dead."
+<i>[M2:]</i> "Yeah, I'm dead, man."
+<i>[Joe:]</i> "That is awefull."
+<i>[M2:]</i> "There's a big white light and everything, man."
+<i>[Joe:]</i> "Yeah! Well you showed us all, man."
+<i>[M2:]</i> "Oh man, I'm so peaceful here man."
+<i>[Joe:]</i> "Yeah, you see anything weird, or.."
+<i>[M2:]</i> "My relatives, man, a big white light, and my grandfather's there and.."
+<i>[Joe:]</i> "Ooooh, I remember him, he's a good guy."
+<i>[M2:]</i> "He's still wearing the same clothes, and.."
+<i>[Joe:]</i> "Hey, say hello fer me, huh?"
+<i>[M2:]</i> "Hey man, Joe says hi, man."
+<i>[Joe: Chuckling]</i> "Right."
+<i>[M2:]</i> "It's yeah..My uncle's here and..."
+<i>[Joe:]</i> "Right..right.. Hey I got some news for ya. This is so funny."
+<i>[M2:]</i> "Yeah? What, man?"
+<i>[Joe:]</i> "Yeah, yeah, before you go, up to heaven. 
+The gun, you killed yerself with, that's the one I sold you, right?"
+<i>[M2:]</i> "Yeah."
+<i>[Joe:]</i> "Yeah, well that was a cap gun. 
+So, there's no way you could have killed yourself."
+<i>[Pause]</i>
+<i>[Joe:]</i> "Yeah, that's right, ok.. I'm going back to the party. Ok, take care."
+<i>[Walks back]</i>
+
+<i>[M2: Whimpering and crying]</i> "I'm moving to a different town man."
+
+<i>[Four weeks later]</i>
+
+<i>[Pouring drink]</i>
+<i>[M2:]</i> "Oh this beer is great, man. 
+This tequila is really strong, man. 
+It's got a worm, and everything in it, man."
+<i>[Buffoon:]</i> "Fuckin' shit!"
+<i>[M2:]</i> "All being in the sun, you're even more wasted. 
+Fuckin' shit is right, man! 
+I am totally wasted now, man. 
+I should maybe get an umbrella or something and go in the shade."
+<i>[Buffoon:]</i> "I know a guy who can suck his own dick."
+<i>[M2:]</i> "Yeah, I know a guy who can do that too. 
+He's the drummer from Molly Hatchet and one night we had two cases of Southern Comfort, man. 
+We were so wasted off it. 
+I'm serious man."

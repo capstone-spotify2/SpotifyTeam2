@@ -1,0 +1,100 @@
+<i>[Frida:]</i> I am Frida. hello.
+I'm the star of the show.
+<i>[Agnetha:]</i> That's what she thinks, anyway.
+<i>[Frida:]</i> And I like to perform.
+Benny says I am warm.
+<i>[Benny:]</i> Well hot is the least you can say.
+<i>[Frida:]</i> Independant and free,
+And ambitious, that's me.
+And I'm tough too, you see.
+<i>[Benny:]</i> No she's not. Just ask me.
+<i>[Frida:]</i> Singing and dancing is what I like best.
+
+<i>[Agnetha and Frida:]</i> I am an A.
+<i>[Benny and Bjorn:]</i> I'm a B.
+<i>[Agnetha and Frida:]</i> He is okay.
+<i>[Agnetha and Frida:]</i> So is she.
+<i>[ABBA:]</i> Singing together in harmony.
+<i>[Agnetha and Frida:]</i> He is a B.
+<i>[Benny and Bjorn:]</i> She's a bird.
+<i>[Agnetha and Frida:]</i> Fiddle-dee-dee.
+<i>[Benny and Bjorn:]</i> Yes, you heard.
+<i>[ABBA:]</i> We are a simple, four-letter word:
+A-B-B-A.
+
+<i>[Bjorn:]</i> I am Bjorn. I'm the guy
+Who is careful and shy.
+Don't like to spend every dime.
+But I love my guitar,
+And I drive in my car.
+<i>[Agnetha:]</i> Scares me to death every time.
+<i>[Bjorn:]</i> And I don't like shave.
+<i>[Agnetha:]</i> You should live in a cave.
+<i>[Bjorn:]</i> No, I feel more at home on thew stage.
+When I sing and I play
+With my group, it's okay.
+<i>[Benny, Angetha and Frida:]</i> Your group?! You're kidding! Or is it your age?
+
+<i>[Agnetha and Frida:]</i> I am an A.
+<i>[Benny and Bjorn:]</i> I'm a B.
+<i>[Agnetha and Frida:]</i> He is okay.
+<i>[Agnetha and Frida:]</i> So is she.
+<i>[ABBA:]</i> Singing together in harmony.
+<i>[Agnetha and Frida:]</i> He is a B.
+<i>[Benny and Bjorn:]</i> She's a bird.
+<i>[Agnetha and Frida:]</i> Fiddle-dee-dee.
+<i>[Benny and Bjorn:]</i> Yes, you heard.
+<i>[ABBA:]</i> We are a simple, four-letter word:
+A-B-B-A.
+Two and two together make four.
+Every song opens a door.
+<i>[Agnetha:]</i> I am an A.
+<i>[Bjorn:]</i> I am a B.
+<i>[Benny:]</i> I am a B.
+<i>[Frida:]</i> I am an A.
+
+<i>[Agnetha:]</i> I'm Agnetha. hello.
+I'm the young one, you know.
+<i>[Frida:]</i> She never lets me forget.
+<i>[Agnetha:]</i> I am gentle and mild.
+Underneath it, I'm wild.
+<i>[Bjorn:]</i> Craziest woman I've met.
+<i>[Agnetha:]</i> I'm romantic, they say,
+But it's not quite that way.
+I'm down to earth, yes indeed.
+And I like early nights, so I turn off the lights.
+<i>[Bjorn:]</i> And I never get any chances to read.
+
+<i>[Agnetha and Frida:]</i> I am an A.
+<i>[Benny and Bjorn:]</i> I'm a B.
+<i>[Agnetha and Frida:]</i> He is okay.
+<i>[Agnetha and Frida:]</i> So is she.
+<i>[ABBA:]</i> Singing together in harmony.
+<i>[Agnetha and Frida:]</i> He is a B.
+<i>[Benny and Bjorn:]</i> She's a bird.
+<i>[Agnetha and Frida:]</i> Fiddle-dee-dee.
+<i>[Benny and Bjorn:]</i> Yes, you heard.
+<i>[ABBA:]</i> We are a simple, four-letter word:
+A-B-B-A.
+
+<i>[Benny:]</i> I am Benny, at last.
+And I'm living quite fast.
+I like to travel and see.
+I can play in "the mood".
+I like wine. I like food.
+<i>[Bjorn:]</i> Now, that's somthing He just can't deny.
+I can play day and night,
+If the feeling's alright.
+<i>[Frida:]</i> And that's somehimes a problem for me.
+
+<i>[Agnetha and Frida:]</i> I am an A.
+<i>[Benny and Bjorn:]</i> I'm a B.
+<i>[Agnetha and Frida:]</i> He is okay.
+<i>[Agnetha and Frida:]</i> So is she.
+<i>[ABBA:]</i> Singing together in harmony.
+<i>[Agnetha and Frida:]</i> He is a B.
+<i>[Benny and Bjorn:]</i> She's a bird.
+<i>[Agnetha and Frida:]</i> Fiddle-dee-dee.
+<i>[Benny and Bjorn:]</i> Yes, you heard.
+<i>[ABBA:]</i> We are a simple, four-letter word:
+A-B-B-A.
