@@ -1,0 +1,77 @@
+<i>[Phone Rings]</i>
+<i>[Mr. Spindel picks it up]</i>
+<i>[Mr Spindel:]</i> "Hullo!"
+<i>[Student: Whispering]</i> "Hey Mr. Spindel. How's algebra class going?" 
+<i>[Chuckling]</i>
+<i>[Mr Spindel:]</i> "Whut!?"
+<i>[Student: Whispering]</i> "You're in for a big surprise tommorrow during 5th period!" 
+<i>[Chuckling]</i>
+<i>[Mr Spindel:]</i> "Hey! Who is this!"
+<i>[Student Hangs up phone]</i>
+
+<i>[Dial tone]</i>
+<i>[Mr Spindel:]</i> "Hullo!"
+<i>[Dial tone]</i>
+<i>[Mr Spindel:]</i> "Hullo!"
+<i>[Dial tone]</i>
+<i>[Mr Spindel:]</i> "Who is this!?"
+<i>[Dial tone]</i>
+<i>[Mr Spindel:]</i> "Hullo!"
+<i>[Dial tone]</i>
+<i>[Mr Spindel:]</i> "Answer me!"
+<i>[Dial tone]</i>
+<i>[Mr Spindel:]</i> "Who is this!?"
+<i>[Dial tone]</i>
+<i>[Mr Spindel:]</i> "Hullo!"
+<i>[Dial tone]</i>
+<i>[Mr Spindel:]</i> "For God's sake! Who are you!?"
+<i>[Dial tone]</i>
+<i>[Mr Spindel:]</i> "Hullo!"
+<i>[Dial tone]</i>
+<i>[Mr Spindel:]</i> "Hullo!"
+<i>[Dial tone]</i>
+
+<i>[Operator recording playing "If you'd like to make a call..."]</i>
+<i>[Mr Spindel:]</i> "Who is that!?"
+<i>[Recording continues]</i>
+<i>[Mr Spindel:]</i> "Hullo!"
+<i>[Recording continues]</i>
+<i>[Mr Spindel:]</i> "Who are you!?"
+<i>[Recording continues]</i>
+<i>[Mr Spindel:]</i> "Please answer me!"
+<i>[Silence]</i>
+
+<i>[Bleeping noise]</i>
+<i>[Mr Spindel:]</i> "Oh God! Who is this!?"
+<i>[Bleeping]</i>
+<i>[Mr Spindel:]</i> "Please stop it! Why are you doing this!?"
+<i>[Bleeping]</i>
+<i>[Mr Spindel:]</i> "WHY!? WHY!?"
+<i>[Bleeping]</i>
+<i>[Mr Spindel:]</i> "Just tell me your name."
+<i>[Bleeping]</i>
+<i>[Mr Spindel:]</i> "Please."
+<i>[Bleeping]</i>
+<i>[Mr Spindel:]</i> "I'm gonna hang up!"
+<i>[Bleeping]</i>
+<i>[Mr Spindel:]</i> "I'm warning you!"
+<i>[Bleeping]</i>
+<i>[Mr Spindel:]</i> "Hullo!"
+<i>[Bleeping]</i>
+<i>[Mr Spindel:]</i> "Whoever this is, I'm gonna hang up!"
+<i>[Bleeping]</i>
+<i>[Mr Spindel:]</i> "That's it!"
+<i>[Bleeping]</i>
+<i>[Mr Spindel:]</i> "Damn you kids!!"
+<i>[Bleeping]</i>
+<i>[Mr Spindel:]</i> "Damn you!!"
+<i>[Slams down phone]</i>
+
+<i>[Phone rings]</i>
+<i>[Mr. Spindel picks it up]</i>
+<i>[Mr Spindel:]</i> "Hullo?"
+<i>[Ted:]</i> "Yeah, Bill."
+<i>[Mr Spindel:]</i> "Oh, TED!"
+<i>[Ted:]</i> "I've been trying to get through to you forever. 
+Who have you been talking to?"
+<i>[Mr Spindel:]</i> "I don't know. So help me God! I don't know!"

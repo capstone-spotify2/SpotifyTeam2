@@ -1,0 +1,111 @@
+<i>[Mag:]</i>
+Hi, nathan.
+
+<i>[Nathan:]</i>
+Mag...? how did you get in here?
+Dont you have a show tonight?
+
+<i>[Mag:]</i>
+How are you, nathan?
+
+<i>[Nathan:]</i>
+Busy.
+
+<i>[Mag:]</i>
+You never were a man of many words, nate.
+You told me shilo died.
+
+<i>[Nathan:]</i>
+Listen--
+
+<i>[Mag:]</i>
+Nathan, I promised your late wife
+
+<i>[Mag:]</i>
+Id be present in shilo?s life.
+
+<i>[Nathan:]</i>
+Please
+
+<i>[Nathan:]</i>
+Mag, shilo is very ill.
+Its not safe for her to see people.
+I need to give her her medication.
+
+<i>[Shilo:]</i>
+Dad, let her stay in here.
+
+<i>[Nathan:]</i>
+No, shes leaving.
+
+<i>[Shilo:]</i>
+Please, hide her here.
+
+<i>[Nathan:]</i>
+From what?
+
+<i>[Shilo:]</i>
+Shell be dead!
+
+<i>[Nathan:]</i>
+Look, I told you she was sick.
+
+<i>[Mag:]</i>
+Nathan, you are hurting me--
+
+<i>[Shilo:]</i>
+Dad?
+
+<i>[Nathan:]</i>
+My daughter needs her rest.
+
+<i>[Mag:]</i>
+Ill be fine, shilo.
+Dont you fret.
+
+<i>[Shilo:]</i>
+Repossessions are dangerous--!
+
+<i>[Nathan:]</i>
+Shilo, go to bed.
+
+<i>[Shilo:]</i>
+Youre not safe!
+Dad, shes not safe--!
+
+<i>[Mag:]</i>
+Shilo, dont you fret.
+
+<i>[Nathan:]</i>
+Shilo, go to bed!
+
+<i>[Shilo:]</i>
+No--!
+
+<i>[Mag:]</i>
+Nathan, what has
+Become of you?
+Youve turned this
+House into a tomb.
+Marni wouldnt want
+This for her!
+
+<i>[Nathan:]</i>
+Mag, I told you that
+She is sick.
+Youve upset her.
+I cant have this.
+Im not going to ask
+Again!
+
+<i>[Mag:]</i>
+Set her free!
+Set her free!
+
+<i>[Shilo:]</i>
+Mag, dont leave!
+Please, dont leave!
+
+<i>[Nathan:]</i>
+Leave our house!
+Leave my house!

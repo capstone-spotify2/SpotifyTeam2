@@ -1,0 +1,150 @@
+<i>[Father:]</i> Well Ryan, tomorrow's a big day. Your mom's coming home from the hospital with your new baby sister.
+<i>[Ryan:]</i> baby sister
+<i>[Father:]</i> That's right, baby sister.
+<i>[Ryan:]</i> baby sister
+<i>[Father:]</i> So, uh, I think now is the time for us to go over some safety rules for when you're around your new baby sister.
+<i>[Ryan:]</i> safety rules
+<i>[Father:]</i> Okay, rule number one: Always wash your hands before touching the baby.
+<i>[Ryan:]</i> wash hands
+<i>[Father:]</i> Do you know why?
+<i>[Ryan:]</i> no
+<i>[Father:]</i> Well, because sometimes you have germs on your hands and germs are bad for the baby cause they can make the baby sick.
+<i>[Ryan:]</i> germs make baby sick
+<i>[Father:]</i> That's right, that's right, Ryan. Germs make baby sick.
+<i>[Ryan:]</i> germs make the baby sick
+<i>[Father:]</i> Okay, rule number two.
+<i>[Ryan:]</i> more rules
+<i>[Father:]</i> Don't feed the baby anything.
+<i>[Ryan:]</i> don't feed the baby.
+<i>[Father:]</i> That's right.
+<i>[Ryan:]</i> why?
+<i>[Father:]</i> Well, because the baby needs to eat special baby food.
+<i>[Ryan:]</i> why?
+<i>[Father:]</i> Oh...well, other food is bad for the baby.
+<i>[Ryan:]</i> other food bad for the baby
+<i>[Father:]</i> That's right, good. Now, rule number three.
+<i>[Ryan:]</i> more rules
+<i>[Father:]</i> Never take hot water near the baby because hot water will burn the baby.
+<i>[Ryan:]</i> water bad for the baby
+<i>[Father:]</i> Well, not all water, just hot water,
+<i>[Ryan:]</i> yes
+<i>[Father:]</i> Cause hot water will burn the baby.
+<i>[Ryan:]</i> i don't understand, daddy
+<i>[Father:]</i> Okay, see this glass of water that I'm drinking?
+<i>[Ryan:]</i> yes
+<i>[Father:]</i> Well, this water is okay for the baby.
+<i>[Ryan:]</i> yes
+<i>[Father:]</i> Here, touch the glass.
+<i>[Ryan:]</i> yes
+<i>[Father:]</i> See, it's nice and cool.
+<i>[Ryan:]</i> yes
+<i>[Father:]</i> Now if this was hot water that would be bad because hot water can burn the baby.
+<i>[Ryan:]</i> hot water burn baby?
+<i>[Father:]</i> Yes, hot water burn baby.
+<i>[Ryan:]</i> hot water burn baby
+<i>[Father:]</i> Yes, yes, hot water burn baby.
+<i>[Ryan:]</i> hot water burn your baby
+<i>[Father:]</i> Yes.
+<i>[Ryan:]</i> baby can't go in swimming pool?
+<i>[Father:]</i> Oh no, the swimming pool is okay. Swimming pool water is cool.
+<i>[Ryan:]</i> yes
+<i>[Father:]</i> That's alright.
+<i>[Ryan:]</i> yes
+<i>[Father:]</i> But the jacuzzi is bad because that water is hot and hot water will burn the baby.
+<i>[Ryan:]</i> hot water burn the baby
+<i>[Father:]</i> Yes.
+<i>[Ryan:]</i> hot water burn the baby
+<i>[Father:]</i> Yes. Now say you made a cup of tea, would you take that near the baby?
+<i>[Ryan:]</i> yea, baby like tea
+<i>[Father:]</i> No Ryan, uh, I don't think you get it yet.
+<i>[Ryan:]</i> baby no like tea?
+<i>[Father:]</i> Well, I'm sure the baby will like tea, but what do you make tea with?
+<i>[Ryan:]</i> ...hot water
+<i>[Father:]</i> Right, and what did we say about hot water?
+<i>[Ryan:]</i> ...oh, hot water burn baby
+<i>[Father:]</i> Yes, hot water burn baby!
+<i>[Ryan:]</i> hot water burn baby!
+<i>[Father:]</i> That's right so no tea near the baby.
+<i>[Ryan:]</i> hot water burn baby
+<i>[Father:]</i> Yes.
+<i>[Ryan:]</i> baby no take bath?
+<i>[Father:]</i> No, bath water is warm. Warm is okay.
+<i>[Ryan:]</i> yes
+<i>[Father:]</i> Hot is bad.
+<i>[Ryan:]</i> yes...hot water burn baby
+<i>[Father:]</i> Yes, hot water burn baby.
+<i>[Ryan:]</i> hot water burn baby
+<i>[Father:]</i> I think you're gettin' it!
+<i>[Ryan:]</i> hot water burn baby
+<i>[Father:]</i> That's right, Ryan.
+<i>[Ryan:]</i> hot water burn baby
+<i>[Father:]</i> NOW DON'T YOU EVER FORGET THAT!
+<i>[Narrator:]</i> 30 year later!
+<i>[Wife:]</i> Hey, Ryan, what are you doing out there?
+<i>[Ryan:]</i> Just watchin' the discovery channel.
+<i>[Wife:]</i> Well, dinner's gonna be ready in about five minutes.
+<i>[Ryan:]</i> Aw, great baby, aight, I'll be in in a few momentos. Lemme just wind down...(garbled)
+<i>[Wife:]</i> Okay, honey!
+<i>[Ryan:]</i> Yeah.
+<i>[TV:]</i> The villagers of Pasquan
+<i>[Ryan:]</i> Pasquan
+<i>[TV:]</i> have a very bizarre and painful way of welcoming their infants into the community.
+<i>[Ryan:]</i> <i>[garbled]</i>
+<i>[TV:]</i> Unfortunately, the death rate from this ritual is a mortifying 90 percent.
+<i>[Ryan:]</i> My God.
+<i>[TV:]</i> That explains the Pasquan's low population.
+<i>[Ryan:]</i> Yeah, it does.
+<i>[TV:]</i> On the first full moon of Autumn, all the Pasquanian mothers wrap their new-borns in traditional hand painted deerskin,...
+<i>[Ryan:]</i> Deerskin.
+<i>[TV:]</i> ...which have been passed along from generation to generation.
+<i>[Ryan:]</i> That's nice.
+<i>[TV:]</i> The entire Pasquan population then forms a circle on the sacred battlefield of Chin-Chara.
+<i>[Ryan:]</i> ya-yara
+<i>[TV:]</i> Each Pasquanian baby is then passed, hand to hand, around the circle...
+<i>[Ryan:]</i> Wow.
+<i>[TV:]</i> ...four times.
+<i>[Ryan:]</i> Four times.
+<i>[TV:]</i> Once for the sun,...
+<i>[Ryan:]</i> Hmm.
+<i>[TV:]</i> ...once for the moon,...
+<i>[Ryan:]</i> The moon.
+<i>[TV:]</i> ...once for the earth,...
+<i>[Ryan:]</i> The earth.
+<i>[TV:]</i> ...and once for the wind.
+<i>[Ryan:]</i> The wind, too.
+<i>[TV:]</i> When the babies arrive back in their mother's hands, they are marched, in procession, to the Pasquanian natural hot springs...
+<i>[Ryan:]</i> What?
+<i>[TV:]</i> ...where the ceremonial purification will be completed.
+<i>[Ryan:]</i> What are you saying here?
+<i>[TV:]</i> As we watch, the mothers take their progeny out of the deerskin shells...
+<i>[Ryan:]</i> No.
+<i>[TV:]</i> ...and dunk them into the steaming water.
+<i>[Ryan:]</i> No! No! Hot water burn baby! Hot water burn baby!
+<i>[Father:]</i> That's right, Ryan. Hot water burn baby.
+<i>[Ryan:]</i> Hot water burn baby!
+<i>[Wife:]</i> Ryan! What's going on out there? Are you okay?
+<i>[Ryan:]</i> Hot water burn baby!
+<i>[Father:]</i> Hot water burn most definitely burn baby.
+<i>[Ryan:]</i> Hot water burn baby!
+<i>[Father:]</i> That's right, Ryan. Hot water burn baby!
+<i>[Ryan:]</i> Hot water burn baby!
+<i>[Father:]</i> You are a bitch, Ryan!
+<i>[Ryan:]</i> Hot water burn baby!
+<i>[Wife:]</i> Ryan, are you alright?
+<i>[Father:]</i> Hot water burn the baby!
+<i>[Ryan:]</i> Hot water burn baby!
+<i>[Wife:]</i> Ryan!
+<i>[Father:]</i> What are you gonna do, whore?
+<i>[Wife:]</i> Ryan!
+<i>[Ryan:]</i> Hot water burn baby!
+<i>[Father:]</i> Bitch!
+<i>[Wife:]</i> Ryan! What's going on out there?
+<i>[Ryan:]</i> Hot water burn baby!
+<i>[Father:]</i> Whore!
+<i>[Wife:]</i> Who are you talking to?
+<i>[Father:]</i> Bitch!
+<i>[Ryan:]</i> I'm talking to the man!
+<i>[Father:]</i> Whore!
+<i>[Ryan:]</i> Hot water burn baby!
+<i>[Wife:]</i> Ryan!
+<i>[Father:]</i> Bitch! Ryan is a whore!

@@ -1,0 +1,58 @@
+<i>[Richie:]</i> "So ya doin' good?"
+<i>[Samantha:]</i> "Ya, I'm fine, how 'bout you?"
+<i>[Richie:]</i> "How good could I be? I haven't seen you in three hours."
+<i>[Samantha:]</i> "Ohhh, Richie. Hey Richie, my dad's down the hall, 
+and he doesn't want me on the phone. 
+So if I hang up on you, it's just because he's coming."
+<i>[Richie:]</i> "Ok. So look, uh, do you wanna meet at the Spring Fling Dance thi..."
+<i>[She hangs up phone]</i>
+
+<i>[Phone rings]</i>
+<i>[Richie:]</i> "Hello?"
+<i>[Samantha:]</i> "Sorry, I thought he was coming."
+<i>[Richie:]</i> "That's ok. So, about the dance. Do you wanna meet
+<i>[Samantha:]</i> "Umm, well my brother gets the car on Friday nights."
+<i>[Richie:]</i> "Well that's ok, I'll come by and get you. Lets say around..."
+<i>[She hangs up phone]</i>
+<i>[Richie:]</i> "Come on.."
+
+<i>[Phone rings]</i>
+<i>[Richie:]</i> "Hey."
+<i>[Samantha:]</i> "Sorry. I guess he was just going to the bathroom."
+<i>[Richie:]</i> "That's ok. Well look, uh.. what was I saying? 
+Oh yeah, should I pick you up at like seven-thirty 
+or maybe do you wanna go later when the dance is really kickin.."
+<i>[She hangs up the phone again]</i>
+<i>[Richie:]</i> "Give me a break..."
+
+<i>[Phone rings]</i>
+<i>[Richie:]</i> "Hello."
+<i>[Samantha:]</i> "Sorry. It was just my dog."
+<i>[Richie:]</i> "Hey, what's your dad's problem anyways!? Why can't we talk?"
+<i>[Samantha:]</i> "He just thinks I'm on the phone too much. 
+Oh my God, uh, I gotta go."
+<i>[Richie:]</i> "Don't hang up!"
+<i>[Samantha:]</i> "Richie, I can't talk!"
+<i>[Richie:]</i> "No, I'm sick of this! Put your dad on the phone! I wanna talk to him."
+<i>[Samantha:]</i> "It's not my dad."
+<i>[Richie:]</i> "What? Well, who's there? Why can't you talk?"
+<i>[Samantha:]</i> "Uh, just look Richie, someone is here."
+<i>[Richie:]</i> "Who's there? Is it a guy!?"
+<i>[Samantha:]</i> "Richie!"
+<i>[Richie:]</i> "I knew it! I'll kill him! Put him on the phone!"
+<i>[Samantha:]</i> "oh.. it's just.. hold on."
+
+<i>[Hands phone to guy]</i>
+<i>[Richie:]</i> "Hey man! What the hell are you doing there!? Samantha's my girl!
+You'd better stay away from her or I'll make you wish you were never born!"
+<i>[Buffoon:]</i> "Fuckin' shit!"
+<i>[Richie:]</i> "Yeah, fuckin' shit is right buddy! 
+Don't think I'm kidding around, man! I'm crazy! I'll smash your head in! I swear to God!"
+<i>[Buffoon:]</i> "One time I saw my Grandmother in the shower. Her bush starts above her belly button."
+<i>[Richie:]</i> "Yeah, well that's too bad! But I'm still gonna come over there and beat your face in!"
+<i>[Richie slams down phone]</i>
+
+<i>[Samantha: "What happened? Was he mad?"
+<i>[Buffoon: "My neighbor's dog has a four inch clit!"
+<i>[Samantha: "Oh Buffoon, you're the coolest." <i>[Whispering]</i> "I love you..."
+</i></i></i>
