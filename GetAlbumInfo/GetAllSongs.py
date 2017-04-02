@@ -82,3 +82,54 @@ for i, artist in allartists.ix[5684:5795].iterrows():
 # re.findall("<b>(.*?)</b>",a)
 # re.findall("</b>(.*?)</div>",a)
 # re.findall("<a href=\"(.*?)\".*?>(.*?)<",a)
+
+
+####################################
+#
+# get lyrics
+#
+#
+
+#allartists = pd.read_csv('allartists.csv', index_col = 0)
+
+def get_lyrics(url):
+    try:
+        #content = urllib.request.urlopen(url).read()
+        r = RequestAgent.request(url)
+        soup = BeautifulSoup(r, 'html.parser')
+        lyrics = str(soup)
+        # lyrics lies between up_partition and down_partition
+        up_partition = '<!-- Usage of azlyrics.com content by any third-party lyrics provider is prohibited by our licensing agreement. Sorry about that. -->'
+        down_partition = '<!-- MxM banner -->'
+        lyrics = lyrics.split(up_partition)[1]
+        lyrics = lyrics.split(down_partition)[0]
+        lyrics = lyrics.replace('<br>','').replace('</br>','').replace('</div>','').strip()
+        return lyrics
+    except Exception as e:
+        return "Exception occurred \n" +str(e)
+
+
+afiles = [f for f in listdir("albuminfo") if isfile(join('albuminfo', f)) and f.endswith(".csv")]
+# start with M-Q
+afiles = [f for f in afiles if 'm' <= f[0].lower() <= 'q']
+afiles = afiles[afiles.index('m_monstermagnet.html.csv'):]
+
+for f in afiles:
+    ainfo = pd.read_csv('albuminfo/'+f)
+    for i, song in ainfo.iterrows():
+        if isinstance(song.song, str) and isinstance(song.artist, str):
+            url = song.link
+            if url.startswith('../'):
+                url = "http://azlyrics.com/" + url[3:]
+            elif url.startswith('http'):
+                pass
+            else:
+                print("Not able to process url: %s" % url)
+                continue
+            lyrics = get_lyrics(url)
+            with open("lyrics/%s_%s.txt"%(song.artist.replace("/", "_"), song.song.replace("/", "_")), "w") as text_file:
+                text_file.write(lyrics)
+
+        time.sleep(15)
+
+
