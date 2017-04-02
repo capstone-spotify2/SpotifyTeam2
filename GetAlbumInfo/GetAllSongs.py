@@ -13,7 +13,6 @@ import time
 #
 #
 
-<<<<<<< HEAD
 allartists = []
 for l in string.ascii_lowercase:
     url = "http://azlyrics.com/%s.html"%l
@@ -39,7 +38,7 @@ allartists = pd.read_csv('allartists.csv')
 #allsongs = []
 for i, artist in allartists.ix[2497:].iterrows():
     try:
-        aname = artist.artist
+        aname = artist.artistpage
         alink = artist.artistpage
         url = "http://azlyrics.com/"+alink
         r = RequestAgent.request(url)
