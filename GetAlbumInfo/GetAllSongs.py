@@ -104,13 +104,14 @@ def get_lyrics(url):
         lyrics = lyrics.replace('<br>','').replace('</br>','').replace('</div>','').strip()
         return lyrics
     except Exception as e:
-        return "Exception occurred \n" +str(e)
+        raise Exception("Exception occurred when getting url %s. %s" % (url, e))
 
 
 afiles = [f for f in listdir("albuminfo") if isfile(join('albuminfo', f)) and f.endswith(".csv")]
 # start with M-Q
-afiles = [f for f in afiles if 'm' <= f[0].lower() <= 'q']
-afiles = afiles[afiles.index('m_monstermagnet.html.csv'):]
+afiles = [f for f in afiles if 'm' <= f[0].lower() <= 'o']
+# skipped MARTY CASEY & LOVEHAMMERS.csv, cannot get lyrics
+afiles = afiles[afiles.index('MATT HIRES.csv')+1:]
 
 for f in afiles:
     ainfo = pd.read_csv('albuminfo/'+f)
@@ -118,7 +119,7 @@ for f in afiles:
         if isinstance(song.song, str) and isinstance(song.artist, str):
             url = song.link
             if url.startswith('../'):
-                url = "http://azlyrics.com/" + url[3:]
+                url = "http://www.azlyrics.com/" + url[3:]
             elif url.startswith('http'):
                 pass
             else:
@@ -128,7 +129,7 @@ for f in afiles:
             with open("lyrics/%s_%s.txt"%(song.artist.replace("/", "_"), song.song.replace("/", "_")), "w") as text_file:
                 text_file.write(lyrics)
 
-        # time.sleep(15)
+        time.sleep(10)
 
 
 
