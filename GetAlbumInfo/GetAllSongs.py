@@ -146,4 +146,3 @@ for f in afiles:
 # # Remove double spaces
 # double_space_regex = re.compile('\s+')
 # double_space_regex.sub(" ", lyrics)
-
