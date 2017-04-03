@@ -1,0 +1,29 @@
+<i>[Astronaut:]</i> Hah, what is it?
+<i>[Astronaut:]</i> We have some explanation for that?
+<i>[Beep]</i>
+
+<i>[Houston:]</i> We have (not). Don't worry, continue your program.
+<i>[Beep]</i>
+
+<i>[Astronaut:]</i> Oh boy it's a, it's a, it, it is really something fantastic here. You, you could never imagine this.
+<i>[Beep]</i>
+
+<i>[Houston:]</i> Roger, we know about that. Could you go the other way. Go back the other way!
+<i>[Beep]</i>
+
+<i>[Astronaut:]</i> Well it's kind of rich... ha, pretty spectacular... God... What is that there?
+<i>[Beep]</i>
+
+<i>[Astronaut:]</i> It's... What the Hell is that?
+<i>[Houston:]</i> Go tango, tango!
+<i>[Beep]</i>
+
+<i>[Astronaut:]</i> Huh, there's kind of light there now!
+<i>[Beep]</i>
+
+<i>[Houston:]</i> Roger, we got it, we watched it. Loose comunication, bravo tango, bravo tango, select Jezebel, Jezebel.
+<i>[Beep]</i>
+
+<i>[Astronaut:]</i> But this is unbelivable.
+
+"Did anybody see George Jetson?"

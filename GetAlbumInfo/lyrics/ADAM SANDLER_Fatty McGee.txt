@@ -1,0 +1,66 @@
+<i>[Talking quietly]</i>
+<i>[M1:]</i> "Ms. Murphy is such a pain, man."
+<i>[M2:]</i> "We just had a test a week ago. 
+Now we gotta take another one tommorrow. This sucks!"
+<i>[M1:]</i> "And it counts for 80 percent of our grade."
+<i>[M2:]</i> "Well we better study our butts off."
+<i>[M1:]</i> "Well we came to the right place, the ever so quiet library."
+<i>[M2:]</i> "Ok, enough talking, let's study!"
+<i>[M1:]</i> "All right."
+<i>[Turning pages]</i>
+
+<i>[Heavy steps]</i>
+<i>[M2:]</i> "Uh oh"
+<i>[M1:]</i> "Oh no! Fatty McGee is coming. 
+We'll never get any studying done with him in the library."
+<i>[Heavy steps continue]</i>
+<i>[M2:]</i> "Oh god, he's taking the stairs! 
+That means he's going to be way out of breath!"
+
+<i>[Fatty whining, try to catch breath]</i>
+<i>[M1:]</i> "Oh no, he's going to sit with us."
+<i>[Fatty: Annoying whining voice]</i> "Hey fellas, studying for the big test?"
+<i>[M1:]</i> "Uh, yes Fatty, we were."
+<i>[Fatty: Still trying to catch breath]</i> "Great! I'll join ya."
+<i>[Fatty pulls out chair and falls into it, still whining horribly]</i>
+<i>[M2:]</i> "Hey Fatty, why don't you go to the bathroom 'till you catch your breath?"
+<i>[Fatty:]</i> "No, no, I'm catching it!"
+<i>[Fatty continuing to whine and snort]</i>
+<i>[M1:]</i> "Ok, ok Fatty, but try to keep the wheezing level down, we're trying to concentrate."
+<i>[Fatty: Continuing to wheeze and whine louder]</i> "Sure, no problem."
+<i>[M1:]</i> "Oh man."
+<i>[Fatty: Still snorting and whining loudly]</i> 
+"This test counts for eighty percent of our grade, you know."
+<i>[Whining continues even louder]</i>
+<i>[M1:]</i> "Yes Fatty, we know, we just said that."
+<i>[Wheezing continues a little softer]</i>
+<i>[M2:]</i> "Fatty! Please keep it down!"
+
+<i>[Fatty makes snoring/whining sounds]</i>
+
+<i>[M2:]</i> "Is he sleeping!?"
+<i>[M1:]</i> "No, it's his deviated sceptum. 
+Seriously Fatty, keep the breathing down." 
+<i>[Snoring stops, more weird noise starts]</i>
+<i>[M2:]</i> "Ahh geez Fatty, what's wrong with you!?"
+<i>[Fatty: Pausing, snorting]</i> "I'm trying."
+<i>[Whining continues]</i>
+<i>[M1:]</i> "Fatty, you know what's going to happen! 
+Stop breathing so heavy! Please we gotta study!"
+<i>[Whining gets higher and higher until it's continuous]</i>
+<i>[M2:]</i> "Oh no, that one's going to do it!"
+
+<i>[Fire alarm sounding, fire trucks honking their horns, sirens reeling]</i>
+<i>[M2:]</i> "Fatty, the fire department thinks the fire alarm went off again!"
+<i>[Fatty: Continuing his LOUD annoying whine]</i> "I'm sorry!"
+<i>[Fireman Ray:]</i> "Fire! Man the building!"
+<i>[M1:]</i> "Sorry Fireman Ray, it's not the fire alarm."
+<i>[Fireman Ray:]</i> "Fatty McGee, is that you again!?"
+<i>[Fatty: Stillin whining annoyingly]</i> "Yes." <i>[Snort]</i> "Sorry." <i>[Snort]</i>
+<i>[Fireman Ray:]</i> "Didn't we tell you not to take the stairs anymore!?"
+<i>[Fatty: Whiney voice]</i> "But I like the stairs!"
+<i>[Fireman Ray: annoyed]</i> "Why!?"
+<i>[Fatty: Still whining horribly]</i> "They're fun!"
+<i>[Fireman Ray:]</i> "Oh Fatty McGee, you're the fattest!"
+<i>[Everyone laughing at stupid joke]</i>
+<i>[Raspberry]</i>

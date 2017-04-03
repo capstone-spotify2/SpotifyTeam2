@@ -1,0 +1,2 @@
+Exception occurred 
+HTTPConnectionPool(host='azlyrics.com', port=80): Max retries exceeded with url: /lyrics/alejandrosanz/yotetraigo.html (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x11447a630>: Failed to establish a new connection: [Errno 60] Operation timed out',))

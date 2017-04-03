@@ -1,0 +1,92 @@
+<i>[Silverware clicking]</i>
+<i>[M1:]</i> "Can you pass the beats please?"
+<i>[F1:]</i> "Here you go"
+<i>[M1:]</i> "Thanks"
+<i>[Brad:]</i> "Hey Mom, guess what? 
+I got invited to a party tonight! 
+And I'm gonna go if that's ok with you."
+<i>[Mom:]</i> "NOOO!!"
+<i>[Brad:]</i> "Why not Mom?"
+<i>[F1:]</i> "Yeah, why mom? He should go."
+<i>[Brad:]</i> "It's gonna be fun. I'll get to meet new people..."
+<i>[Mom:]</i> "They're all gonna laugh at you!"
+<i>[Brad:]</i> "Oh mom..."
+<i>[Mom:]</i> "They're all gonna laugh at you!"
+<i>[F1:]</i> "Don't wory Brad."
+
+
+<i>[F2:]</i> "Hey mom, I saw this great skirt at the mall today, 
+but it was $34, which isn't that high of a price, 
+but I was nervous to buy it. 
+What do you think?
+<i>[Mom:]</i> "NOOO!!"
+<i>[F2:]</i> "Really? I really like it..."
+<i>[Mom:]</i> "They're all gonna laugh at you!"
+<i>[F2:]</i> "Oh mom, who is?"
+<i>[Mom:]</i> "They're all gonna laugh at you!"
+<i>[F2:]</i> "Mom, you're so paranoid."
+<i>[Mom:]</i> "NOOO!!"
+
+<i>[M3:]</i> "Hey mom, I gotta get up pretty early tommorrow for Little League try-outs."
+<i>[Mom:]</i> "NOOO!!"
+<i>[M3:]</i> "Yeah, I have to be at the field at 9 o'clock..."
+<i>[Mom:]</i> "They're all gonna laugh at you!"
+<i>[M3:]</i> "Do you think you could drop me off there?..."
+<i>[Mom:]</i> "They're all gonna laugh at you!"
+<i>[M3:]</i> "How am I gonna get there?"
+<i>[Mom:]</i> "They're all gonna laugh at you!"
+<i>[M3:]</i> "I'll walk I guess."
+<i>[Mom:]</i> "NOOO!!"
+
+<i>[Cindy:]</i> "Mom, can you pass the salad dressing?"
+<i>[Mom:]</i> "NOOO!!"
+<i>[Cindy:]</i> "Please?"
+<i>[Mom:]</i> "NOOO!!"
+<i>[Cindy:]</i> "Come on, mom."
+<i>[Mom:]</i> "NOOO!!"
+<i>[Brad:]</i> "I'll get it for you Cindy."
+<i>[Cindy:]</i> "Thanks Brad."
+<i>[Mom:]</i> "They're all gonna laugh at you!"
+<i>[Cindy:]</i> "Thanks for the tip, Ma."
+<i>[Mom:]</i> "They're all gonna laugh at you!"
+
+<i>[Brad:]</i> "Hey everyone, let's just go out for ice cream."
+<i>[Mom:]</i> "NOOO!!"
+<i>[Brad:]</i> "Why are we eating inside? 
+It's a beautiful night. 
+We need to get out more."
+<i>[Mom:]</i> "NOOO!!"
+<i>[Cindy:]</i> "Mother, Brad is right."
+<i>[Mom:]</i> "NOOO!!"
+<i>[Cindy:]</i> "We should go out, it'll be fun."
+<i>[Mom:]</i> "NOOO!!"
+<i>[Cindy:]</i> "Come on, let's go, I could go for some Maple Walnut."
+<i>[Mom:]</i> "They're all gonna laugh at you!"
+<i>[M3:]</i> "Yeah, we haven't gone out together in a long time."
+<i>[Mom:]</i> "NOOO!!"
+<i>[Cindy:]</i> "You wanna come Dave?"
+<i>[Mom:]</i> "NOOO!!"
+<i>[Dave:]</i> "No, I'll hang out with mom."
+<i>[M1:]</i> "You sure?"
+<i>[Mom:]</i> "They're all gonna laugh at you!"
+<i>[Dave:]</i> "Yeah, go without me."
+<i>[M3:]</i> "All right, see you guys later."
+<i>[Mom:]</i> "They're all gonna laugh at you!"
+
+<i>[Dave:]</i> "How are you, mom? Great meal tonight. Sure is... 
+You sure know how to cook! 
+Boy, oh boy, you're quite a lady. 
+Say mom, uhm, can I go canoeing next weekend with my friend Barry?"
+<i>[Mom:]</i> "NOOO!!"
+<i>[Dave:]</i> "Please?"
+<i>[Mom:]</i> "They're all gonna laugh at you!"
+<i>[Dave:]</i> "Mom, you're over reacting!"
+<i>[Mom:]</i> "They're all gonna laugh at you!"
+<i>[Dave:]</i> "Why are you so overprotective!?"
+<i>[Mom:]</i> "They're all gonna laugh at you!"
+<i>[Dave:]</i> "Mom! I'm going to the ice cream place! 
+You're just so set in your ways it drives me crazy!"
+<i>[Bangs on the table, gets up]</i>
+<i>[Mom:]</i> "They're all gonna laugh at you!"
+<i>[Screen door closes]</i>
+<i>[Mom:]</i> "They're all gonna laugh at him!"
