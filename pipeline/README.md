@@ -1,6 +1,6 @@
 
 
-step 1: feature engineering
+### step 1: feature engineering
 
 parameters: raw_data.csv(input, required) - the file contains the information about all the songs in database. Required informations are(in order): Current index, original index, song id, song name, artist, tag, path to the song lyrics txt file, song lyrics.
 
@@ -11,22 +11,23 @@ n_features(int, input, optimal) - total number of features wanted for the modeli
 by default: 250
 
 run feature engineering:
-python feature_engineering.py inputdata.csv [-f output.csv -n 100]
+
+    python feature_engineering.py inputdata.csv [-f output.csv -n 100]
 
 
 
-step 2: build model:
-run model_training.py inputfeature.csv [-e est -d depth]
+### step 2: build model:
+
+    run model_training.py inputfeature.csv [-e est -d depth]
 
 
-step 3: prediction:
+### step 3: prediction:
 
-# in your prediction file                                                                                                                                                                                                           
-
+in your prediction file                                                                                                                                                                                                           
+```python
 with open('path/to/file', 'rb') as f:
     rf = cPickle.load(f)
 
-
 preds = rf.predict(new_X)
-
+```
 
