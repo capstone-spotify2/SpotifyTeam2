@@ -107,6 +107,7 @@ x_all2 =sequence.pad_sequences(x_all, 150)
 alltags = tagdf.tag.unique()
 
 ## for binary model
+
 # tag = 'happy'
 # tagmap = {alltags[i]: i for i in range(len(alltags))}
 # train_df['tag_num'] = train_df.tag.map(lambda x: tagmap[x])
@@ -117,10 +118,13 @@ alltags = tagdf.tag.unique()
 # model.add(Dense(len(alltags), activation='sigmoid'))
 # model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 # model.fit(x_train2, np.array(train_df.tag).reshape(train_df.shape[0],), validation_data=(x_test2, np.array(test_df.tag).reshape(test_df.shape[0],)), epochs = 3)
-#model.fit(x_train2, y_train, validation_data=(x_test2, y_test), epochs = 3)
-
+# model.fit(x_train2, y_train, validation_data=(x_test2, y_test), epochs = 3)
+# model.save('happy_model.h5')
+# pred = model.predict(x_test2)
+# np.sum(pred.T>0.5)
 
 ## for multiclass model
+
 encoder = LabelEncoder()
 encoder.fit(train_df.tag)
 encoded_Y = encoder.transform(train_df.tag)
@@ -133,13 +137,39 @@ encoded_Y = encoder.transform(test_df.tag)
 # convert integers to dummy variables (i.e. one hot encoded)
 y_test = np_utils.to_categorical(encoded_Y)
 
+encoder = LabelEncoder()
+encoder.fit(tagdf.tag)
+encoded_Y = encoder.transform(tagdf.tag)
+# convert integers to dummy variables (i.e. one hot encoded)
+y_all = np_utils.to_categorical(encoded_Y)
+
+
 model = Sequential()
 model.add(layer)
 model.add(LSTM(100))
 model.add(Dense(len(alltags), activation='softmax'))
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 model.fit(x_train2, y_train, validation_data=(x_test2, y_test), epochs = 3)
+# model.save('multiclass_model.h5')
 
 # Final evaluation of the model
-# scores = model.evaluate(X_test, y_test, verbose=0)
-# print("Accuracy: %.2f%%" % (scores[1]*100))
+scores = model.evaluate(x_all2, y_all, verbose=0)
+print("Accuracy: %.2f%%" % (scores[1]*100))
+
+## merge to output predicted probabilities
+pred = model.predict(x_all2)
+preddf = pd.DataFrame(pred, columns = encoder.classes_)
+tagdf = tagdf.drop(['index'], axis = 1)
+preddf['id'] = tagdf['id']
+preddf = tagdf.merge(preddf, on = 'id')
+# ipred = pd.DataFrame(pred).apply(np.argmax, axis = 1)
+# tpred = ipred.map(lambda x: encoder.classes_[x])
+# preddf['predicted_1'] = ipred.map(lambda x: encoder.classes_[x])
+from scipy.stats import rankdata
+for i in range(1, 4):
+    preddf['predicted_%s'%i] = pd.DataFrame(pred).apply(lambda x: list(rankdata(x)).index(len(alltags) - i + 1), axis = 1)
+    preddf['predicted_%s'%i] = preddf['predicted_%s'%i].map(lambda x: encoder.classes_[x])
+print("Accuracy: %.2f%%" % (np.sum(preddf.tag == preddf.predicted_1)/preddf.shape[0]*100))
+print("Top 3 Accuracy: %.2f%%" % (np.sum(preddf.apply(lambda x: x.tag in x[['predicted_%s'%i for i in range(1, 4)]].values, axis = 1))/preddf.shape[0]*100))
+
+preddf.to_csv('Models/multiclassLSTMOutput.csv')
