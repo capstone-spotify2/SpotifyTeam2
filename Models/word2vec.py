@@ -76,8 +76,16 @@ def oped_to_sentences(raw_sentences, remove_stopwords=False ):
 
 
 def mostSimilarFromList(inputw, wlist, wmodel):
-    if inputw in wmodel.vocab.keys():
-        sims = [wmodel.similarity(inputw, w) for w in wlist]
+    inputw = inputw.split()
+    inputw_ = "_".join(inputw)
+    vocabs = wmodel.vocab.keys()
+    if inputw_ in vocabs:
+        sims = [wmodel.similarity(inputw_, w) for w in wlist]
+        return wlist[np.argmax(sims)]
+    elif (np.sum([iw in vocabs for iw in inputw]) > 0) & (len(inputw) > 1):
+        sims = []
+        for w in wlist:
+            sims.append(np.mean([wmodel.similarity(iw, w) for iw in inputw if iw in wmodel.vocab.keys()]))
         return wlist[np.argmax(sims)]
     else:
         print ("input not in vocabulary")
