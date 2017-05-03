@@ -10,40 +10,46 @@ import pandas as pd
 import nltk
 from nltk import word_tokenize
 
-def tag_prediction(raw_data, tag = "all"):
+def tag_prediction(raw_data = "playlist.csv", tag = "all"):
     print("Input song data from the lyrics_datafile...")
     with open(raw_data, 'rb') as f:
         reader = csv.reader(f)
         data_list = list(reader)
     
     data_list = np.array(data_list)
-    df = pd.read_csv(raw_data)
 
-    if tag in df['tag'].unique():
-        tag_df = df[df['tag'].isin([tag])].values
-        index = np.random.randint(0,len(tag_df)-1, 5)
-        l = [ tag_df[i] for i in index ]
-        res = []
+    if tag == "all":
+        index = np.random.randint(0,len(data_list)-1, 10)
+        l = [ data_list[i] for i in index ]
         print("-----Prediction Done-----")
         print("")
         print("The prediction results are:")
-        for i in range(5):
-            id,name,art = l[i][2],l[i][3],l[i][4]
-            print(id+ " "+name+ ", "+art)
-            res.append([l[i][3], l[i][4]])
-        return res
+        name = []
+        artist = []
+        for i in range(10):
+            id,n,art = l[i][1],l[i][2],l[i][3]
+            name.append(n)
+            artist.append(art)
+        return zip(name,artist)
     else:
-        return None
+        df = pd.read_csv(raw_data, index_col=0)
+        df_no_dup = df.drop_duplicates('Song_txt_loc')
+        if tag in df_no_dup.columns:
+            sorted_df = df_no_dup.sort_values(tag,ascending=False)
+            name = sorted_df[:10].Name.values
+            artist = sorted_df[:10].Aritist.values
+            link = sorted_df[:10].Song_link.values
+            tag_p = sorted_df[:10][tag].values
+            return zip(name, artist,tag_p,link)
+        else:
+            return "Sorry! Do not have songs for this tag."
 
-    
-    
-# RF_short = RandomForestClassifier(n_estimators = 15, max_depth =5)
 
 def main(argv=None):
     if argv is None:
         argv = sys.argv
 
-    usage = "Usage: %prog input_data.csv -t tag \n input_data.csv is required (pass -h for more info)"
+    usage = "Usage: %prog -t tag (pass -h for more info)"
     parser = OptionParser(usage)
 
     parser.add_option("-t", "--tag", dest="tag",
@@ -52,12 +58,20 @@ def main(argv=None):
 
     (options, args) = parser.parse_args(argv[1:])
 
-    if len(args) < 1:
-        parser.error("Must pass in a data file")
     if options.tag is not None:
-        tag_prediction(args[0], tag= options.tag)
+        tag = tag_prediction(tag= options.tag)
     else:
-        tag_prediction(args[0])
+        tag = tag_prediction()
+    if type(tag) == list:
+        print("-----Prediction Done-----")
+        print("")
+        print("The prediction results are:")
+        print("Name:\t\t\tArtist:")
+        for i in range(len(tag)):
+            n,a,t,l = tag[i]
+            print(n+"\t"+a+"\t"+str(t)+"\t"+l)
+    else:
+        print tag
     return 0
 
 if __name__ == "__main__":

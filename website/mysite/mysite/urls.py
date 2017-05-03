@@ -18,11 +18,7 @@ from mysite.views import hello, current_datetime, hours_ahead
 from books import views
 
 urlpatterns = [
-    url(r'^admin/', include(admin.site.urls)),
-    url(r'^hello/$', hello),
-    url(r'^time/$', current_datetime),
-    url(r'^time/plus/(\d{1,2})/$', hours_ahead),
-    url(r'^search-form/$', views.search_form),
-    url(r'^search/$', views.search),
-    url(r'^upload/$', views.upload_file),
+    url(r'^index/$', views.index),
+    url(r'^predict/$', views.predict),
+    url(r'^recommend/$', views.recommend)
 ]
