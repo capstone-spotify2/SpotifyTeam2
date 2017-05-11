@@ -30,4 +30,3 @@ with open('path/to/file', 'rb') as f:
 
 preds = rf.predict(new_X)
 ```
-

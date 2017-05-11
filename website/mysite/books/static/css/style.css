@@ -46,7 +46,7 @@ h2 {
     font-family: "Segoe UI"
     font-weight: 100;
     font-size: 30px;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 10px;
     color: #5d4e67;
 }
@@ -76,14 +76,31 @@ h2 {
     padding-left: 3px;
 }*/
 
+#rightColumn-4{
+    padding-top: 15px;
+}
+
+#submit1{
+    margin-top: 15px;
+    margin-left: 250px;
+}
+
 
 h3 {
     font-family:"Helvetica";
     font-size: 15px;
     padding-left: 0px;
     color: #5f5f5d;
-    line-height: 10px;
 }
+
+h4 {
+    font-family:"Helvetica";
+    font-size: 15px;
+    padding-right: 100px;
+    color: #5f5f5d;
+    line-height: 25px;
+}
+
 
 .africa-text {
     font-family: 'Roboto', sans-serif;
