@@ -5,7 +5,7 @@ Spotify provides millions of song tracks covering a full spectrum of music varie
 
 
 
-> Note: Please run all the functions under python 2
+> **Note: Please run all the functions under python 2**
 
 Part 1: environment setup
 -------------------------
@@ -16,9 +16,13 @@ Part 1: environment setup
     ``./setup.sh``
 
 2. Download pre-trained word2vec model from [GoogleNews-vectors-negative300.bin.gz](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing). 
-Unzip the word2vec model and locate the file inside `pipeline/1-LSTM_model_for_tag_prediction` folder
+Unzip the word2vec model and locate the file inside `./Final_Deliverable/pipeline/1-LSTM_model_for_tag_prediction` folder
 
-> Note: if you have already installed django, gensim, tensorflow, or keras package, please make sure they are in the following versions: django: 1.8.13,  gensim: 2.0.0,  tensorflow: 1.1.0,  keras: 2.0.4
+> Note: if you have already installed django, gensim, tensorflow, or keras package, please make sure they are in the following versions: <br />
+django: 1.8.13,  <br />
+gensim: 2.0.0,  <br />
+tensorflow: 1.1.0,  <br />
+keras: 2.0.4
     
 Part 2: Run Tag Prediction Baseline Model in terminal
 --------------------------------------------------
@@ -28,10 +32,10 @@ Part 2: Run Tag Prediction Baseline Model in terminal
 ### step 1: feature_engineering
 
 Run feature_engineering.py by:
->``python feature_engineering.py raw_data.csv [-f output.csv -n n_features]``
+``python feature_engineering.py raw_data.csv [-f output.csv -n n_features]``
 
 Example:
-> ``python feature_engineering.py full_dataset.csv -f test.csv -n 150``
+``python feature_engineering.py full_dataset.csv -f test.csv -n 150``
 
 Parameters explanation: 
 
@@ -44,10 +48,10 @@ Parameters explanation:
 
 ### step 2: train model:
 Run model_training.py by:
-> ``python model_training.py input_feature.csv output_model_name [-e est -d depth]``
+``python model_training.py input_feature.csv output_model_name [-e est -d depth]``
 
 Example:
-> ``python model_training.py features.csv output_model -e 20 -d 5``
+``python model_training.py features.csv output_model -e 20 -d 5``
 
 Parameters explanation:
 
@@ -63,10 +67,10 @@ Parameters explanation:
 
 ### step 3:  tag prediction:
 Run model_fitting.py by:
-> ``python model_fitting.py lyrics.txt -n n_features -m model``
+``python model_fitting.py lyrics.txt -n n_features -m model``
 
 Example:
-> ``python model_fitting.py ../lyrics/If\ I\ die\ Young.txt -n 150 -m model.pickle``
+``python model_fitting.py ../lyrics/If\ I\ die\ Young.txt -n 150 -m model.pickle``
 
 Parameters explanation:
 - `lyrics.txt` (input, required) - the lyrics txt file of the song we want to predict.
@@ -77,30 +81,24 @@ Parameters explanation:
 
 Return value: 
 - Terminal prints out 3 tags that have the top 3 probability.
-- Example output: 
-
-    >The prediction results are:
-         
-        >love
-            
-        >memory
-            
-        >sad
-
-
+- Example output: <br />
+>The prediction results are:
+>love
+>memory
+>sad
 
 
 Part 3: Run Tag Prediction Advanced Model in terminal
 ------------------------------------------------------
 `cd ./Final_Deliverable/pipeline/1-LSTM_model_for_tag_prediction/` to run the advanced model.
->Note: **Since the LSTM model is huge. It takes very long time to train and fit on personal computer.**
+>**Note: Since the LSTM model is huge. It takes very long time to train and fit the model on personal computer.**
 
 ### step 1: train model:
 Run model_training.py by:
-> ``python model_training.py output_model_name``
+``python model_training.py output_model_name``
 
 Example:
-> ``python model_training.py output_model``
+``python model_training.py output_model``
 
 Parameters explanation:
 - `output_model_name` (output, required) - the name of the output model.
@@ -108,10 +106,10 @@ Parameters explanation:
 
 ### step 2: tag prediction:
 Run model_fitting.py by:
-> ``python model_fitting.py lyrics.txt``
+``python model_fitting.py lyrics.txt``
 
 Example:
-> ``python model_fitting.py ../lyrics/If\ I\ die\ Young.txt``
+``python model_fitting.py ../lyrics/If\ I\ die\ Young.txt``
 
 Parameters explanation:
 - `lyrics.txt` (input, required) - the lyrics txt file of the song we want to predict.
@@ -119,13 +117,10 @@ Parameters explanation:
 Return value: 
 - Terminal prints out 3 tags that have the top 3 probability.
 - Example output: 
-    >The three top tags are:
-    
-    >tag: funny
-    
-    >tag: love
-    
-    >tag: sad
+>The three top tags are:
+>tag: funny
+>tag: love
+>tag: sad
 
 
 Part 4: Run Song Recommendation System in terminal
@@ -134,13 +129,13 @@ Part 4: Run Song Recommendation System in terminal
 
 ### step 1: playlist recommendation:
 Run tag_to_song.py by:
->`python tag_to_song.py tag_name`
+`python tag_to_song.py tag_name`
 
 Example:
->`python tag_to_song.py happy`
+`python tag_to_song.py happy`
 
 Parameters explanation:
-- tag_name (input, required) - the name of tag or keywords that you want to get song playlist from.
+- `tag_name` (input, required) - the name of tag or keywords that you want to get song playlist from.
 
 Return value: 
 - the top 10 songs that most related to the input tag or keywords.
@@ -150,9 +145,9 @@ Part 5: Setup and run User-interactive Website
 `cd ./Final_Deliverable/website/mysite/` to start the web server. 
 
 #### step 1: start the web server
->`python manager.py runserver`
+`python manager.py runserver`
 
-You will see similar output as below from terminal:<br />
+You will see similar output as below from terminal:<br /><br />
 Performing system checks...<br />
 <br />
 System check identified no issues (0 silenced).<br />
@@ -161,7 +156,8 @@ Django version 1.8.13, using settings 'mysite.settings'<br />
 Starting development server at **http://127.0.0.1:8000/**<br />
 Quit the server with CONTROL-C.
 <br />
-> type in chrome the following address:<br />
+<br />
+>type in chrome the following address:<br />
 >http://127.0.0.1:8000/index/
 
 You will see our webpage after loading for a while(3-5 min).
