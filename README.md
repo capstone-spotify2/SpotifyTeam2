@@ -18,15 +18,11 @@ Part 1: environment setup
 2. Download pre-trained word2vec model from [GoogleNews-vectors-negative300.bin.gz](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing). 
 Unzip the word2vec model and locate the file inside `pipeline/1-LSTM_model_for_tag_prediction` folder
 
-> Note: if you have already installed django, gensim, tensorflow, or keras package, please make sure they are in the following version:
-    - django: 1.8.13
-    - gensim: 2.0.0
-    - tensorflow: 1.1.0
-    - keras: 2.0.4
+> Note: if you have already installed django, gensim, tensorflow, or keras package, please make sure they are in the following versions: django: 1.8.13,  gensim: 2.0.0,  tensorflow: 1.1.0,  keras: 2.0.4
     
-Part 2: Run Baseline Model in terminal
+Part 2: Run Tag Prediction Baseline Model in terminal
 --------------------------------------------------
-
+`cd ./Final_Deliverable/0-baseline_model_for_tag_prediction/` to run the baseline model
 
 
 ### step 1: feature_engineering
@@ -46,7 +42,7 @@ Parameters explanation:
 - `n_features` (int, input, optimal) - number of dimensions of the hashing vectorizer that we want for the modeling step. *default: 150*
 
 
-### step 2: build model:
+### step 2: train model:
 Run model_training.py by:
 > ``python model_training.py input_feature.csv output_model_name [-e est -d depth]``
 
@@ -82,6 +78,7 @@ Parameters explanation:
 Return value: 
 - Terminal prints out 3 tags that have the top 3 probability.
 - Example output: 
+
          The prediction results are:
             love
             memory
@@ -90,9 +87,36 @@ Return value:
 
 
 
-Part 3: Run Advanced Model in terminal
---------------------------------------------------
+Part 3: Run Tag Prediction Advanced Model in terminal
+------------------------------------------------------
+`cd ./Final_Deliverable/1-LSTM_model_for_tag_prediction/` to run the advanced model
+
+### step 1: train model:
+Run model_training.py by:
+> ``python model_training.py output_model_name``
+
+Example:
+> ``python model_training.py output_model``
+
+Parameters explanation:
+- `output_model_name` (output, required) - the name of the output model
 
 
-Part 4: Setup and run User-interactive Website
+### step 2: tag prediction:
+Run model_fitting.py by:
+> ``python model_fitting.py lyrics.txt``
+
+Example:
+> ``python model_fitting.py ../lyrics/If\ I\ die\ Young.txt``
+
+Parameters explanation:
+- `lyrics.txt` (input, required) - the lyrics txt file of the song we want to predict.
+
+
+
+
+Part 4: Run Song Recommendation System in terminal
+------------------------------------------------------
+
+Part 5: Setup and run User-interactive Website
 --------------------------------------------------
