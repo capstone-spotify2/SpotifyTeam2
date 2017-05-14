@@ -106,13 +106,15 @@ Parameters explanation:
 
 ### step 2: tag prediction:
 Run model_fitting.py by:
-``python model_fitting.py lyrics.txt``
+``python model_fitting.py lyrics.txt model_name.h5``
 
 Example:
-``python model_fitting.py ../lyrics/If\ I\ die\ Young.txt``
+``python model_fitting.py ../lyrics/If\ I\ die\ Young.txt output_model.h5``
 
 Parameters explanation:
 - `lyrics.txt` (input, required) - the lyrics txt file of the song we want to predict.
+
+- `output_model.h5` (input, required) - the trained model from model_training.py 
 
 Return value: 
 - Terminal prints out 3 tags that have the top 3 probability.
