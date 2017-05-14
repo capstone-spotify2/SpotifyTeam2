@@ -1,39 +1,31 @@
 from django.shortcuts import render
-from books.models import Book
-from django.http import HttpResponse
-from .forms import UploadFileForm
-from django.http import HttpResponseRedirect
-from django.conf import settings
-from django.core.files.storage import FileSystemStorage
-import pandas as pd
 import cPickle
-import os
-from keras.models import load_model
-from gensim.models.keyedvectors import KeyedVectors
+# from keras.models import load_model
+from gensim.models.keyedvectors import KeyedVectors as KV
 # from jsonify.decorators import ajax_request
-# import jason
 from django.http import JsonResponse
 
-# from handle_uploaded_file import *
 import sys
 sys.path.append('../')
 from backend import *
 
-######### preload model ##############
+# ######## preload model ##############
 # print "loading model...."
 # model = load_model('./backend/multiclass_model.h5')
 # print "model loaded.."
 # ######### preload model ##############
 
-
 # ######### preload word2vex ###########
 print "loading word2vec...."
-word2vec = KeyedVectors.load_word2vec_format('../../pipeline/1-LSTM_model_for_tag_prediction/GoogleNews-vectors-negative300.bin', binary=True)
+word2vec = KV.load_word2vec_format('../../pipeline/1-LSTM_model_for_tag_prediction/GoogleNews-vectors-negative300.bin',
+                                   binary=True)
 print "word2vec loaded...."
-######### preload word2vec ###########
+# ######## preload word2vec ###########
+
 
 def index(request):
     return render(request, 'index.html')
+
 
 def predict(request):
     print "lalala"
@@ -42,9 +34,10 @@ def predict(request):
         artist = request.GET['artist']
         lyrics = get_lyrics.get_lyrics(song, artist)
         print lyrics
-        if type(lyrics)==bool:
+        if type(lyrics) == bool:
             string_song_info = ''+song+' - '+artist
-            warning = 'Sorry, we cannot find the lyrics according to the given artist and song name. Please input another song.'
+            warning = 'Sorry, we cannot find the lyrics according to the given artist and song name. ' + \
+                      'Please input another song.'
 
             return JsonResponse({
                 'song_info': None,
@@ -54,20 +47,20 @@ def predict(request):
                 })
 
         else:
-            ############ <old version> ################################
+            # ########### <old version> ################################
             filename = song+'_'+artist+'.txt'
             f = open(filename, 'w+')
             f.write(lyrics)
             with open('./backend/model.pickle', 'rb') as f:
                 rf = cPickle.load(f)
             print filename
-            tags = model_fitting.model_fit(filename, rf, feature_num = 150)
-            ############ <old version> ################################
+            tags = model_fitting.model_fit(filename, rf, feature_num=150)
+            # ########### <old version> ################################
 
-            ############# comment this block <new version> ############
+            # ############ comment this block <new version> ############
             # tags, prob = model_fitting_0.model_fit(lyrics, model)
             print tags
-            ############ comment this block <new version> #############
+            # ########### comment this block <new version> #############
 
             string_song_info = ''+song+' - '+artist
             string_response = 'The top 3 tags are: '+tags[0]+', '+tags[1]+', '+tags[2]
@@ -83,15 +76,13 @@ def predict(request):
                 })
 
 
-
 def recommend(request):
-    error = False
     if 'tag_input' in request.GET:
         tag = request.GET['tag_input']
         print tag
-        recommend = tag_to_song_0.tag_prediction(word2vec, raw_data = "./backend/playlist.csv", tag = tag)
+        recommend = tag_to_song_0.tag_prediction(word2vec, tag, raw_data="./backend/playlist.csv")
         print recommend
-        if recommend == None:
+        if recommend is None:
             warning = 'Sorry! Do not have songs for this tag.'
             print warning
             return JsonResponse({
@@ -123,7 +114,7 @@ def recommend(request):
                 name_str = 'Song: ' + recommend['name'][i] + ', Artist: ' + recommend['artist'][i]
                 name_list.append(name_str)
             print name_list
-            
+
             return JsonResponse({
                 'rmd_warning': None,
                 'rmd_name_0': name_list[0],
@@ -147,6 +138,3 @@ def recommend(request):
                 'rmd_link_8': recommend['link'][8],
                 'rmd_link_9': recommend['link'][9],
                 })
-
-
-        

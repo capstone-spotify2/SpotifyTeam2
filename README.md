@@ -22,7 +22,7 @@ Unzip the word2vec model and locate the file inside `pipeline/1-LSTM_model_for_t
     
 Part 2: Run Tag Prediction Baseline Model in terminal
 --------------------------------------------------
-`cd ./Final_Deliverable/0-baseline_model_for_tag_prediction/` to run the baseline model
+`cd ./Final_Deliverable/pipeline/0-baseline_model_for_tag_prediction/` to run the baseline model
 
 
 ### step 1: feature_engineering
@@ -92,7 +92,7 @@ Return value:
 
 Part 3: Run Tag Prediction Advanced Model in terminal
 ------------------------------------------------------
-`cd ./Final_Deliverable/1-LSTM_model_for_tag_prediction/` to run the advanced model.
+`cd ./Final_Deliverable/pipeline/1-LSTM_model_for_tag_prediction/` to run the advanced model.
 >Note: **Since the LSTM model is huge. It takes very long time to train and fit on personal computer.**
 
 ### step 1: train model:
@@ -130,7 +130,7 @@ Return value:
 
 Part 4: Run Song Recommendation System in terminal
 ------------------------------------------------------
-`cd ./Final_Deliverable/2-Recommendation/` to run the Recommendation model
+`cd ./Final_Deliverable/pipeline/2-Recommendation/` to run the Recommendation model
 
 ### step 1: playlist recommendation:
 Run tag_to_song.py by:
@@ -147,3 +147,30 @@ Return value:
 
 Part 5: Setup and run User-interactive Website
 --------------------------------------------------
+`cd ./Final_Deliverable/website/mysite/` to start the web server. 
+
+#### step 1: start the web server
+>`python manager.py runserver`
+
+You will see similar output as below from terminal:<br />
+Performing system checks...<br />
+<br />
+System check identified no issues (0 silenced).<br />
+May 14, 2017 - 08:54:41<br />
+Django version 1.8.13, using settings 'mysite.settings'<br />
+Starting development server at **http://127.0.0.1:8000/**<br />
+Quit the server with CONTROL-C.
+<br />
+> type in chrome the following address:<br />
+>http://127.0.0.1:8000/index/
+
+You will see our webpage after loading for a while(3-5 min).
+
+#### step 2: Tag Prediction Function:
+type the artist and song name in the corresponding boxes and hit predict.<br />
+<br />
+The web will return the top 3 tags that associated with this song and the song lyrics
+#### step 3: Song Recommendation:
+type in the keywords that you want the song playlist relates to.<br />
+<br />
+The web will return list of 10 songs with the link to spotify song track.
