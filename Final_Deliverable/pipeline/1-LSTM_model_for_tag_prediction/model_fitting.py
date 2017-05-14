@@ -81,16 +81,19 @@ def main(argv=None):
     if argv is None:
         argv = sys.argv
 
-    usage = "Usage: %prog song_input.txt (pass -h for more info)"
+    usage = "Usage: %prog song_input.txt model(pass -h for more info)"
     parser = OptionParser(usage)
+
+    parser.add_option("-m", "--model", dest="model",
+                      help="trained model")
 
     (options, args) = parser.parse_args(argv[1:])
 
-    if len(args) < 1:
-        parser.error("Must pass in a feature file")
+    if len(args) < 2:
+        parser.error("Must pass in a feature file and pre-trained model")
 
-    model = load_model('multiclass_model.h5')
-    with open(argv[1], 'rb') as f:
+    model = load_model(args[1])
+    with open(argv[0], 'rb') as f:
         fa = LyricsToSentences(f.read())
     tag, prob = model_fit(fa, model)
     print "The three top tags are:"
