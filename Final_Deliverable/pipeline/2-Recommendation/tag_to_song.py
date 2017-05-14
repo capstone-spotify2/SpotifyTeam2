@@ -71,8 +71,8 @@ def main(argv=None):
         print("The prediction results are:")
         print("Name:\t\t\tArtist:")
         for i in range(len(tag)):
-            n, a, t, l = tag[i]
-            print(n + "\t" + a + "\t" + str(t) + "\t" + l)
+            n, a, l = tag[i]
+            print(n + "\t" + a + "\t" + l)
     else:
         print tag
     return 0
