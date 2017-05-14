@@ -16,9 +16,9 @@ Part 1: environment setup
     ``./setup.sh``
 
 2. Download pre-trained word2vec model from [GoogleNews-vectors-negative300.bin.gz](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing). 
-Unzip the word2vec model and locate the file inside `./Final_Deliverable/pipeline/1-LSTM_model_for_tag_prediction` folder
+Unzip the word2vec model and place the file inside this folder: `./Final_Deliverable/pipeline/1-LSTM_model_for_tag_prediction`.
 
-> Note: if you have already installed django, gensim, tensorflow, or keras package, please make sure they are in the following versions: <br />
+> Note: if you have already installed django, gensim, tensorflow, or keras package, please make sure they have the following versions: <br />
 django: 1.8.13,  <br />
 gensim: 2.0.0,  <br />
 tensorflow: 1.1.0,  <br />
@@ -91,7 +91,7 @@ Return value:
 Part 3: Run Tag Prediction Advanced Model in terminal
 ------------------------------------------------------
 `cd ./Final_Deliverable/pipeline/1-LSTM_model_for_tag_prediction/` to run the advanced model.
->**Note: Since the LSTM model is huge. It takes very long time to train and fit the model on personal computer.**
+>**Note: Since the LSTM model is huge. It takes very long time to train and fit the model on a personal computer.**
 
 ### step 1: train model:
 Run model_training.py by:
