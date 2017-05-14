@@ -79,17 +79,21 @@ Return value:
 - Terminal prints out 3 tags that have the top 3 probability.
 - Example output: 
 
-         The prediction results are:
-            love
-            memory
-            sad
+    >The prediction results are:
+         
+        >love
+            
+        >memory
+            
+        >sad
 
 
 
 
 Part 3: Run Tag Prediction Advanced Model in terminal
 ------------------------------------------------------
-`cd ./Final_Deliverable/1-LSTM_model_for_tag_prediction/` to run the advanced model
+`cd ./Final_Deliverable/1-LSTM_model_for_tag_prediction/` to run the advanced model.
+>Note: **Since the LSTM model is huge. It takes very long time to train and fit on personal computer.**
 
 ### step 1: train model:
 Run model_training.py by:
@@ -99,7 +103,7 @@ Example:
 > ``python model_training.py output_model``
 
 Parameters explanation:
-- `output_model_name` (output, required) - the name of the output model
+- `output_model_name` (output, required) - the name of the output model.
 
 
 ### step 2: tag prediction:
@@ -112,11 +116,34 @@ Example:
 Parameters explanation:
 - `lyrics.txt` (input, required) - the lyrics txt file of the song we want to predict.
 
-
+Return value: 
+- Terminal prints out 3 tags that have the top 3 probability.
+- Example output: 
+    >The three top tags are:
+    
+    >tag: funny
+    
+    >tag: love
+    
+    >tag: sad
 
 
 Part 4: Run Song Recommendation System in terminal
 ------------------------------------------------------
+`cd ./Final_Deliverable/2-Recommendation/` to run the Recommendation model
+
+### step 1: playlist recommendation:
+Run tag_to_song.py by:
+>`python tag_to_song.py tag_name`
+
+Example:
+>`python tag_to_song.py happy`
+
+Parameters explanation:
+- tag_name (input, required) - the name of tag or keywords that you want to get song playlist from.
+
+Return value: 
+- the top 10 songs that most related to the input tag or keywords.
 
 Part 5: Setup and run User-interactive Website
 --------------------------------------------------
